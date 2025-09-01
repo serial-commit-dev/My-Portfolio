@@ -1,0 +1,221 @@
+body{
+    background-color: blueviolet;
+    font-family:'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/******************************************************Headings************************************************************/
+
+/*Neeraj */
+.Neeraj{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 3px;
+    font-size: 2.1em;
+    margin-bottom: 12px;
+}
+
+/*Vigilight heading*/
+.Vigilight{
+    color:azure;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.arduino-project{
+    color:azure;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.intellitoll-sys{
+    color: azure;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.Name{
+    color: azure;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.current_focus{
+    color: azure;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.Works{
+    color: azure;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.Skills-heading{
+    color:azure;
+    margin:16px;
+}
+
+.about-me{
+  font-size: 30px;
+  color: azure;
+  font-weight: bold;
+  margin-left: 57px;
+}
+
+/***************************************Heading-CSS-Portion-Ending*****************************************************/
+
+.profile-window {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+
+p{
+
+    color: beige;
+    margin-left: 15px;
+}
+
+p1{
+    margin-left: 5px;
+    color: beige;
+
+}
+
+/*Vigilight para*/
+.vigilight-para{
+    color: beige;
+    margin-left: 15px;
+}
+/*para*/
+.tagline{
+    font-size: 20px;
+    color: floralwhite;
+    text-align: center;
+    margin:0;
+}
+
+
+
+li{
+    color: azure;
+    margin-left: 40px;
+}
+
+
+
+/*********************************************************Sections*****************************************************/
+.VigiLight{
+
+    flex: 1;
+    padding: 35px 40px;
+    background-color:#4B3F72;
+    margin-left: 16px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+
+}
+
+.VigiLight:Hover{
+    transition-duration: 0.3s;
+    box-shadow: 2px 3px 1px 2px  rgba(0, 0, 0, 0.6);
+}
+
+.Arduino-Project{
+
+    flex: 1;
+    padding: 35px 40px;
+    background-color:#4B3F72;
+    margin-left: 16px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.Arduino-Project:Hover{
+    transition-duration: 0.3s;
+    box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.IntelliToll-System{
+
+    flex: 1;
+    padding: 35px 40px;
+    background-color:#4B3F72;
+    margin-left: 16px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.IntelliToll-System:Hover{
+    transition-duration: 0.3s;
+    box-shadow: 2px 3px 1px 2px  rgba(0, 0, 0, 0.6);
+}
+
+.github-account{
+    flex: 1;
+    padding: 35px 40px;
+    background-color:mediumslateblue;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.github-account:Hover{
+    transition-duration: 0.3s;
+    box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/**************************************************Section-CSS-Portion-Ending******************************************/
+
+div{
+   margin-left: 30px;
+}
+
+.btn {
+
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/*link button*/
+a {
+    margin-left: 15px;
+}
+
+nav {
+    text-align:center;
+}
+
+nav a{
+    color: white;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+header{
+    padding: 20px 20px;
+    background-color: #1e1e1e ;
+
+}
+
+
+
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align:center;
+    border: none;
+    background-color: PaleTurquoise;
+
+}
+
+button:hover{
+    background-color:CadetBlue;
+}
