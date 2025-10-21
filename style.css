@@ -18,6 +18,10 @@ body{
     margin-bottom: 12px;
 }
 
+.stats{
+    color: floralwhite;
+    font-weight: bold;
+}
 /*Vigilight heading*/
 .Vigilight{
     color:azure;
@@ -61,11 +65,15 @@ body{
     margin:16px;
 }
 
+#skills{
+    margin-right: 40px;
+}
+
 .about-me{
-  font-size: 30px;
-  color: azure;
-  font-weight: bold;
-  margin-left: 12px;
+    font-size: 30px;
+    color: azure;
+    font-weight: bold;
+    margin-left: 12px;
 }
 
 /***************************************Heading-CSS-Portion-Ending*****************************************************/
@@ -75,6 +83,10 @@ body{
     border-radius: 15px;
 }
 
+h2{
+    color: floralwhite;
+    font-weight: bold;
+}
 
 
 p{
@@ -150,6 +162,8 @@ li{
     box-shadow: 2px 3px 1px 2px  rgba(0, 0, 0, 0.6);
 }
 
+
+
 .Arduino-Project{
 
     flex: 1;
@@ -195,10 +209,36 @@ li{
     box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+#contributor-stats{
+    border-radius: 15px;
+    border:none;
+    margin-left: 23px;
+}
+#contributor-stats:Hover{
+    transition-duration: 0.3s;
+    box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
+
+}
+
+#Achievements{
+    flex: 1;
+    padding: 35px 40px;
+    background-color:mediumslateblue;
+    margin-left: 18px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+#Achievements:Hover{
+    transition-duration: 0.3s;
+    box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+
 /**************************************************Section-CSS-Portion-Ending******************************************/
 
 div{
-   margin-left: 30px;
+    margin-left: 30px;
 }
 
 .btn {
