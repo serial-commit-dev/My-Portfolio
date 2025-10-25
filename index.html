@@ -16,7 +16,7 @@
         <a href="#about-me">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#github-account">GitHub</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
@@ -60,7 +60,24 @@
     </section>
     <br>
     <br>
-   
+
+      <section id="achievements-section">
+        <h2 class="achivements">Achievements</h2>
+        <li>Contributed to Open-Source Repositories</li>
+        <li>Built my first API-powered app with JavaScript and SheetDB</li>
+        <li>Built several Arduino projects and shared code on GitHub</li>
+        <li>Published this portfolio website using GitHub Pages</li>
+      </section>
+    <br>
+    <br>
+    <h2 class="stats">GitHub Contributor Stats</h2>
+    <section>
+        <a href="https://github.com/serial-commit-dev" target="_blank">
+            <img id="contributor-stats" src="https://github-readme-stats.vercel.app/api?username=serial-commit-dev&theme=radical&show_icons=true&hide_title=true&hide_border=true" alt="GitHub Stats for serial-commit-dev">
+
+        </a>
+
+    </section>
     <!--Projects-->
     <section class ="projects"></section>
     <h2 class="Works">Projetcs</h2>
@@ -97,6 +114,27 @@
             <p>You can view my Projects on my Github account</p>
             <button onclick="window.open('https://github.com/serial-commit-dev', '_blank')">View GitHub Account</button>
         </section>
+
+         <br>
+
+        <section id="contact" >
+            <h2 class="contact">Contact  Me</h2>
+
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name"><br>
+
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email"><br>
+
+            <label for="message">Enter your message: </label>
+            <input  id="message">
+            <br>
+            <label for="feedback">Feedback</label>
+            <input  id="feedback">
+            <br>
+            <button id="submit" onclick="postData()">Submit</button>
+
+        </section>
     </section>
 
     <br>
@@ -108,6 +146,11 @@
     </footer>
 
 </div>
+
+
+
+<script src="Submit.js"></script>
+
 
 </body>
 
