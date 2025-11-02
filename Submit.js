@@ -27,7 +27,13 @@ async function postData(){
         const data = await response.json();
         console.log("POST data",response);
 
-     
+        if (typeof gtag === 'function') {
+            gtag('event', 'form_lead', {
+                'event_category': 'form_submission',
+                'event_label': 'contact_me_form',
+            });
+        }
+
 
         clearForm();
 
