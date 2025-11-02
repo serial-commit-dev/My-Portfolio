@@ -1,14 +1,16 @@
 function clearForm() {
-    name = document.getElementById('name').value='';
-    message = document.getElementById('message').value='';
-    email = document.getElementById('email').value='';
-    feedback = document.getElementById('feedback').value='';
+    document.getElementById('name').value='';
+    document.getElementById('message').value='';
+    document.getElementById('email').value='';
+    document.getElementById('feedback').value='';
 }
+
 async function postData(){
-     name = document.getElementById('name').value;
-     message = document.getElementById('message').value;
-     email = document.getElementById('email').value;
-     feedback = document.getElementById('feedback').value;
+    const name = document.getElementById('name').value;
+    const message = document.getElementById('message').value;
+    const email = document.getElementById('email').value;
+    const feedback = document.getElementById('feedback').value;
+
     try{
         const response = await fetch('https://sheetdb.io/api/v1/cuuxgixy343ii',{
             method: 'POST',
@@ -24,11 +26,14 @@ async function postData(){
         });
         const data = await response.json();
         console.log("POST data",response);
-        
+
+     
+
+        clearForm();
+
 
     }catch(error){
         console.log("Error:", error);
     }
 }
 
-postData()
