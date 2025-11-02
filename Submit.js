@@ -1,3 +1,9 @@
+function clearForm() {
+    name = document.getElementById('name').value='';
+    message = document.getElementById('message').value='';
+    email = document.getElementById('email').value='';
+    feedback = document.getElementById('feedback').value='';
+}
 async function postData(){
      name = document.getElementById('name').value;
      message = document.getElementById('message').value;
@@ -18,6 +24,8 @@ async function postData(){
         });
         const data = await response.json();
         console.log("POST data",response);
+        
+
     }catch(error){
         console.log("Error:", error);
     }

@@ -14,7 +14,7 @@
         <p class="tagline">Web Developer | Frontend Dev | UI designer </p>
         <br>
         <a href="#about-me">About</a>
-        <a href="#Project">Projects</a>
+        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
@@ -41,7 +41,7 @@
         <br>
         <h2 class="Skills-heading">Skills & Tools</h2>
         <ul>
-            <li><strong>Languages:</strong> HTML, CSS, C++, JS</li>
+            <li><strong>Languages:</strong> HTML, CSS, C++</li>
 
             <li><strong>Platforms:</strong> GitHub Pages</li>
             <li><strong>IDEs:</strong> WebStorm</li>
@@ -57,7 +57,6 @@
         <li>Programming Arduino with C++</li>
         <li>Getting started with Rasberry Pi</li>
         <li>Learning through hands-on experimentation</li>
-        <li>Working with API Integration</li>
     </section>
     <br>
     <br>
@@ -80,9 +79,9 @@
 
     </section>
     <!--Projects-->
-    
+    <section class ="projects"></section>
     <h2 class="Works">Projetcs</h2>
-    <section id="Project" class="Projects">
+    <section class="Projects">
 
         <section class = "VigiLight">
             <div class="Project">
@@ -135,9 +134,11 @@
             <label for="feedback"></label>
             <input  id="feedback" placeholder="Enter your Feedback">
             <br>
-           <button id="submit"  onclick="postData(); alert('✅ Message sent successfully! Thank you!')">Submit</button>
+            <button id="submit"  onclick="postData();alert('✅ Message sent successfully! Thank you!');clearForm()">Submit</button>
 
         </section>
+
+
 
     <footer>
 
@@ -147,7 +148,10 @@
 
 </div>
 
+
+
 <script src="Submit.js"></script>
+
 
 </body>
 
