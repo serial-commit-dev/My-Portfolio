@@ -129,25 +129,25 @@
 
     <br><br>
 
-        <section id="contact" >
-            <h2 class="contact">Contact  Me</h2>
+    <section id="contact">
+        <h2 class="contact">Contact Me</h2>
 
+        <form id="contact-form">
             <label for="name"></label>
-            <input type="text" id="name" placeholder="Enter your name"><br>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
 
             <label for="email"></label>
             <input type="email" id="email" placeholder="Enter your email (Optional)"><br>
 
             <label for="message"></label>
-            <input id="message" type="text" placeholder="Enter your message" style="height: 49px; ">
+            <input id="message" type="text" placeholder="Enter your message" style="height: 49px;" required>
             <br>
             <label for="feedback"></label>
-            <input  id="feedback" placeholder="Enter your Feedback">
+            <input id="feedback" placeholder="Enter your Feedback">
             <br>
-            <button id="submit"  onclick="postData()">Submit</button>
-
-        </section>
-
+            <button type="button"  id="submit" onclick="postData()">Submit</button>
+        </form>
+    </section>
 
 
     <footer>
