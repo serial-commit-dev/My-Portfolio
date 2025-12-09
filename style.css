@@ -350,3 +350,18 @@ button:hover{
     background-color:CadetBlue;
 }
 
+
+#circle{
+    border-radius: 80%;
+    margin-left: 1000px;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+#circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
