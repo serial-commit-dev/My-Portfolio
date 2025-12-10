@@ -52,7 +52,21 @@ body{
     color: azure;
     margin-left: 5px;
     font-weight: bolder;
+}
 
+#current-focus{
+    margin-top: 90px;
+    margin-right:auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    width: 650px;
+    height: 199px;
+    transition-duration: 0.2s;
+}
+
+#current-focus:hover{
+    transform: translate(15px);
+    transition-duration: 0.2s;
 }
 
 .Works{
@@ -72,6 +86,28 @@ body{
     border-radius: 15px;
     width: 650px;
     height: 199px;
+    transition-duration: 0.2s;
+}
+
+#skills:hover{
+    transition-duration: 0.2s;
+    transform:translateX(-15px);
+}
+
+
+#achievements-section{
+    margin-top: 90px;
+    margin-left:auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    width: 650px;
+    height: 199px;
+    transition-duration: 0.2s;
+}
+
+#achievements-section:hover{
+    transition-duration: 0.2s;
+    transform:translateX(-15px);
 }
 
 .about-me{
@@ -168,6 +204,7 @@ li{
 .VigiLight:Hover{
     transition-duration: 0.3s;
     box-shadow: 2px 3px 1px 2px  rgba(0, 0, 0, 0.6);
+    transform:translateY(-10px);
 }
 
 
@@ -186,6 +223,7 @@ li{
 .Arduino-Project:Hover{
     transition-duration: 0.3s;
     box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
+    transform:translateY(-10px);
 }
 
 .IntelliToll-System{
@@ -201,7 +239,7 @@ li{
 .IntelliToll-System:Hover{
     transition-duration: 0.3s;
     box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
-
+    transform:translateY(-10px);
 }
 
 .github-account{
@@ -216,6 +254,7 @@ li{
 .github-account:Hover{
     transition-duration: 0.3s;
     box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.6);
+    transform:translateY(-10px);
 }
 
 #contributor-stats{
@@ -306,11 +345,18 @@ input {
 /**************************************************Section-CSS-Portion-Ending******************************************/
 
 #intro{
+    margin-bottom: 90px;
     height: 200px;
     width: 850px;
     border-radius: 15px;
     margin-right: auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition-duration: 0.2s;
+}
+
+#intro:hover{
+    transition-duration: 0.2s;
+    transform: translateX(15px);
 }
 
 
@@ -383,6 +429,4 @@ button:hover{
     object-fit: cover;
     overflow: hidden;
 }
-
-
 
