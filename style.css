@@ -326,6 +326,8 @@ nav a{
 
 footer{
     text-align:center;
+    background-color: #1e1e1e;
+    padding: 40px 20px;
 }
 
 header{
@@ -349,4 +351,5 @@ button{
 button:hover{
     background-color:CadetBlue;
 }
+
 
