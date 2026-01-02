@@ -23,4 +23,3 @@ async function postData(){
     }
 }
 
-postData()
