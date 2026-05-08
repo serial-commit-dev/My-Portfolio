@@ -155,59 +155,32 @@ a{color:inherit;text-decoration:none}
     .section{padding:3.5rem 0}
 }
 
-/* NEW HEADER & BUTTON CSS */
-
-/* 1. Header Layout */
-.site-header .container.nav-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Pushes brand left, nav links center (relative), and CTA right */
-    padding: 0.75rem 1.25rem; /* Slightly reduced vertical padding for a tighter header */
-}
-
-/* Ensure the nav-links div stays relatively centered but flexible */
-.site-header .nav-links {
-    display: flex;
-    gap: 1.25rem;
-    flex: 1; /* Allows it to occupy middle space */
-    justify-content: center; /* Centers its own content */
-}
-
-/* 2. New GitHub CTA Container */
-.site-header .header-cta {
-    display: flex;
-    justify-content: flex-end; /* Pin it to the right corner */
-    align-items: center;
-}
-
-/* 3. Specialized GitHub Button Styling (using existing variables) */
-.btn-github {
-    border: 1px solid var(--border); /* Matching your ghost button border */
-    color: var(--text);
+.btn-github-hero {
     background: transparent;
-    transition: all 0.2s ease;
-    
-    /* Ensuring consistent alignment of text and icon */
+    border: 1px solid var(--border);
+    color: var(--text);
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
+    transition: all 0.2s ease;
 }
 
-/* Hover effect: Subtle accent color border and text */
-.btn-github:hover {
-    border-color: var(--accent-2); /* Using the blue accent from your design */
+.btn-github-hero:hover {
+    border-color: var(--accent-2); /* The blue-ish accent from your CSS */
     color: var(--accent-2);
-    transform: translateY(-2px); /* Maintain the existing hover movement */
+    transform: translateY(-2px);
 }
 
-/* 4. Global Icon Scaling Utilities (Add these with your other base classes) */
-.icon {
-    display: inline-block;
-    vertical-align: middle;
-    /* This makes the SVG inherit the text color (var(--text) or var(--accent-2) on hover) */
+.github-icon {
+    /* This makes the SVG inherit the text color automatically */
     fill: currentColor;
-    /* Optional: slightly offset the icon for pixel-perfect vertical centering with text */
-    position: relative;
-    top: -1px; 
+    transition: fill 0.2s ease;
 }
-/* NEW CSS END */
+
+/* Ensure the CTA group wraps nicely on mobile */
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
