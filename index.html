@@ -7,158 +7,233 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-DK6EZ3G4GW');
-    </script>
+    </script> 
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Neeraj — Embedded Systems Developer specializing in firmware, ESP32, Arduino, and rapid prototyping of integrated digital-physical solutions." />
+    <meta name="author" content="Neeraj" />
+    <meta name="keywords" content="Neeraj, Embedded Systems, ESP32, Arduino, Firmware, Portfolio, C++, Prototyping" />
+    <meta property="og:title" content="Neeraj | Portfolio" />
+    <meta property="og:description" content="Embedded Systems Developer | Embedded Logic Developer | Prototyping Specialist" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="./" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Neeraj | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<header>
-    <nav>
-        <h1 class="Neeraj">Neeraj</h1>
-        <p class="tagline">Web Developer | Frontend Dev | UI designer </p>
-        <br>
-        <a href="#about-me">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <header class="site-header">
+        <div class="container nav">
+            <a href="#top" class="brand">Neeraj<span class="brand-dot">.</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#focus">Focus</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#projects">Projects</a>
+                <a href="#github">GitHub</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-<br>
-<br>
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-inner">
+                <p class="eyebrow">// Portfolio — v1</p>
+                <h1>Hi, I'm <span class="accent">Neeraj</span></h1>
+                <p class="tagline">Embedded Systems Developer · Embedded Logic Developer · Prototyping Specialist</p>
+                <div class="hero-cta">
+                    <a class="btn btn-primary" href="#projects">View Projects</a>
+                    <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                </div>
+            </div>
+            <div class="grid-bg" aria-hidden="true"></div>
+        </section>
 
-<div class = "profile-window">
-
-    <section id="about-me">
-        <h3 class="about-me">About Me</h3>
-    </section>
-
-    <br>
-    <br>
-
-    <h2 class="Name">Hi, I'm Neeraj</h2>
-    <p>I'm a developer focused on web technologies and hardware programming.<br>I've built and published two websites using Github Pages, and I'm currently learning C++ through Arduino projects.<br>My journey started with HTML and CSS and I've been learning by building, experimenting,and using AI tools to support my growth.<br>I'm also looking forward to working with Rasberry Pi to expand my hardware skills.</p>
-    <br>
-    <br>
-
-    <section id="skills">
-        <br>
-        <h2 class="Skills-heading">Skills & Tools</h2>
-        <ul>
-            <li><strong>Languages:</strong> HTML, CSS, C++</li>
-
-            <li><strong>Platforms:</strong> GitHub Pages</li>
-            <li><strong>IDEs:</strong> WebStorm/VS Code</li>
-            <li><strong>Hardware:</strong> Arduino (basic projects), exploring Raspberry Pi</li>
-        </ul>
-    </section>
-
-    <br>
-    <br>
-    <section class="current-focus">
-        <h2 class="current_focus">Current Focus</h2>
-        <li>Building responsive websites with HTML & CSS</li>
-        <li>Programming Arduino with C++</li>
-        <li>Getting started with Rasberry Pi</li>
-        <li>Learning through hands-on experimentation</li>
-    </section>
-    <br>
-    <br>
-
-      <section id="achievements-section">
-        <h2 class="achivements">Achievements</h2>
-        <li>Contributed to Open-Source Repositories</li>
-        <li>Built my first API-powered app with JavaScript and SheetDB</li>
-        <li>Built several Arduino projects and shared code on GitHub</li>
-        <li>Published this portfolio website using GitHub Pages</li>
-      </section>
-    <br>
-    <br>
-    <!--Github Contribution Bars space | -->
-
-
-    
-    <!--Projects-->
-    <section class ="projects"></section>
-    <h2 class="Works">Projects</h2>
-    <section class="Projects">
-
-        <section class = "VigiLight">
-            <div class="Project">
-                <h2 class = "Vigilight">VigiLight</h2>
-                <p class ="vigilight-para">VigiLight is an Arduino-based visual alert system for people with hearing loss.<br> It uses a PIR motion sensor to detect movement and activates flashing LEDs to signal nearby presence.</p>
-                <br>
-                <button onclick="window.open('https://github.com/serial-commit-dev/VigiLight', '_blank')">View on GitHub</button>
+        <section id="about" class="section">
+            <div class="container">
+                <h2><span class="hash">#</span> introduction</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Technical Focus</h3>
+                        <p>Developer specializing in hardware programming and embedded systems, leveraging a background in web technologies to build integrated digital–physical solutions.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Core Philosophy</h3>
+                        <p>Committed to a "learn-by-building" approach, utilizing hands-on experimentation and AI-assisted debugging to master complex machine control.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Project Milestone</h3>
+                        <p>Successfully engineered and managed five stable firmware releases for an electromagnetic induction prototype, ensuring hardware–software stability.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Technical Roadmap</h3>
+                        <p>Currently expanding expertise in C++ and ESP32 architectures while applying machine learning principles, including the architectural design of a specialized model for detecting malicious bots within web environments.</p>
+                    </article>
+                </div>
             </div>
         </section>
-        <br>
-        <section class="Arduino-Project">
-            <div class = "Project">
-                <h2 class="arduino-project">Arduino Projects</h2>
-                <p class = arduino-para>Basic Arduino Projects</p><br><br>
-                <button onclick="window.open('https://github.com/serial-commit-dev/Arduino-Projects', '_blank')">View on GitHub</button>
+
+        <section id="skills" class="section alt">
+            <div class="container">
+                <h2><span class="hash">#</span> skills &amp; tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-block">
+                        <h4>Languages</h4>
+                        <ul class="chips">
+                            <li>Embedded C++</li><li>Vanilla JavaScript</li><li>HTML5</li><li>CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="skill-block">
+                        <h4>Hardware Platforms</h4>
+                        <ul class="chips">
+                            <li>ESP32</li><li>Arduino Uno</li>
+                        </ul>
+                    </div>
+                    <div class="skill-block">
+                        <h4>Development Ecosystem</h4>
+                        <ul class="chips">
+                            <li>VS Code</li><li>WebStorm</li><li>GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="skill-block">
+                        <h4>Deployment &amp; Analytics</h4>
+                        <ul class="chips">
+                            <li>GitHub Pages</li><li>Google Analytics 4</li><li>SheetDB API</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
-        <br>
 
-        <section class="IntelliToll-System">
-            <h2 class="intellitoll-sys">IntelliToll System</h2>
-            <p class="Intelli-sys-para">An Arduino toll gate that uses an ultrasonic sensor to detect cars and open/close the gate automatically;<br> RFID could be added with more components.</p>
-            <button onclick="window.open('https://github.com/serial-commit-dev/IntelliToll-System', '_blank')">View on GitHub</button>
+        <section id="focus" class="section">
+            <div class="container">
+                <h2><span class="hash">#</span> current focus</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Embedded Logic &amp; Firmware</h3>
+                        <p>Developing stability-focused control systems using C++ for Arduino and ESP32 architectures.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Rapid Prototyping</h3>
+                        <p>Utilizing hands-on experimentation to bridge the gap between theoretical models and functional hardware.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Hardware–Software Integration</h3>
+                        <p>Expanding mastery in sensor-fusion and real-time data handling for autonomous prototypes.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Kinematic System Control</h3>
+                        <p>Implementing precise motor and actuator logic to manage movement and physical interaction in hardware systems.</p>
+                    </article>
+                </div>
+            </div>
         </section>
-        <br>
 
-
-        <section id="github-account" class="github-account">
-            <h2 class="github">GitHub Account</h2>
-            <p>You can view my Projects on my Github account</p>
-            <button onclick="window.open('https://github.com/serial-commit-dev', '_blank')">View GitHub Account</button>
+        <section id="achievements" class="section alt">
+            <div class="container">
+                <h2><span class="hash">#</span> achievements</h2>
+                <ul class="timeline">
+                    <li>
+                        <h3>Project Iteration &amp; Versioning</h3>
+                        <p>Achieved five stable releases for a hardware project based on electromagnetic induction, maintaining a disciplined development and documentation cycle.</p>
+                    </li>
+                    <li>
+                        <h3>Firmware Development</h3>
+                        <p>Open-sourced physics-based flight control logic and embedded systems code for aeronautical prototypes, focusing on stability and real-world application.</p>
+                    </li>
+                    <li>
+                        <h3>Data-Driven Growth</h3>
+                        <p>Optimized a professional portfolio that secured over <strong>1,185%</strong> increase in active users and over <strong>2,000%</strong> growth in views over a six-month period, monitored via Google Analytics 4.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-    </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2><span class="hash">#</span> projects</h2>
+                <div class="projects">
+                    <article class="project">
+                        <h3>N-35 Flight Prototype</h3>
+                        <p>The core firmware is currently a stable single-file system utilizing Newtonian physics to balance thrust and stability. Future updates will transition the project into a modular flight stack capable of being remotely controlled via a custom webpage.</p>
+                        <a class="link" href="https://github.com/serial-commit-dev/N-35" target="_blank" rel="noopener">View on GitHub →</a>
+                    </article>
+                    <article class="project">
+                        <h3>Web Shooter</h3>
+                        <p>A mechatronics project utilizing electromagnetic induction and solenoid actuators. Developed over five stable GitHub releases, it emphasizes precise hardware-software timing and the transition from theoretical physics to functional mechanical firing systems.</p>
+                        <a class="link" href="https://github.com/serial-commit-dev/Web-Shooter" target="_blank" rel="noopener">View on GitHub →</a>
+                    </article>
+                    <article class="project">
+                        <h3>VigiLight</h3>
+                        <p>VigiLight is an Arduino-based visual alert system for people with hearing loss. It uses a PIR motion sensor to detect movement and activates flashing LEDs to signal nearby presence.</p>
+                        <a class="link" href="https://github.com/serial-commit-dev/VigiLight" target="_blank" rel="noopener">View on GitHub →</a>
+                    </article>
+                    <article class="project">
+                        <h3>Arduino Projects</h3>
+                        <p>Basic Arduino Projects.</p>
+                        <a class="link" href="https://github.com/serial-commit-dev/Arduino-Projects" target="_blank" rel="noopener">View on GitHub →</a>
+                    </article>
+                    <article class="project">
+                        <h3>IntelliToll System</h3>
+                        <p>An Arduino toll gate that uses an ultrasonic sensor to detect cars and open/close the gate automatically; RFID could be added with more components.</p>
+                        <a class="link" href="https://github.com/serial-commit-dev/IntelliToll-System" target="_blank" rel="noopener">View on GitHub →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <br><br>
+        <section id="github" class="section">
+            <div class="container narrow">
+                <h2><span class="hash">#</span> github</h2>
+                <article class="card github-card">
+                    <h3>GitHub Profile</h3>
+                    <p>Explore all my repositories, experiments, and open-source work on my GitHub profile.</p>
+                    <a class="link" href="https://github.com/serial-commit-dev" target="_blank" rel="noopener">Visit @serial-commit-dev →</a>
+                </article>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2 class="contact">Contact Me</h2>
+        <section id="contact" class="section alt">
+            <div class="container narrow">
+                <h2><span class="hash">#</span> contact</h2>
+                <p class="muted">Have a project, idea, or feedback? Drop a message below.</p>
+                <form id="contact-form" class="form" novalidate>
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" required maxlength="100" autocomplete="name" />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required maxlength="255" autocomplete="email" />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="field">
+                        <label for="feedback">Feedback</label>
+                        <textarea id="feedback" name="feedback" rows="3" maxlength="1000"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit" id="submit-btn">Send Message</button>
+                    <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
 
-        <form id="contact-form">
-            <label for="name"></label>
-            <input type="text" id="name" placeholder="Enter your name"><br>
-
-            <label for="email"></label>
-            <input type="email" id="email" placeholder="Enter your email (Optional)"><br>
-
-            <label for="message"></label>
-            <input id="message" type="text" placeholder="Enter your message" style="height: 49px;" >
-            <br>
-            <label for="feedback"></label>
-            <input id="feedback" placeholder="Enter your Feedback">
-            <br>
-            <button type="button"  id="submit" onclick="postData()">Submit</button>
-        </form>
-    </section>
-
-
-    <footer>
-
-        <p>&copy; 2026 Neeraj. Thanks for visiting my portfolio!</p>
-
+    <footer class="site-footer">
+        <div class="container foot">
+            <p>© <span id="year"></span> Neeraj. Built with embedded curiosity.</p>
+        </div>
     </footer>
 
-</div>
-
-
-
-<script src="Submit.js"></script>
-
-
+    <script src="script.js"></script>
 </body>
-
 </html>
